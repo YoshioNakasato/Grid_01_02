@@ -40,8 +40,8 @@ st.line_chart( sorted(data_h[data_h.columns[option_h]][1:8785].astype(float), re
 
 #セレクトボックス
 option_t = st.selectbox(
-    '東北エリアについては、Grid_Numberを71〜228の間で指定してください',
-    list(range(71,228))
+    '東北エリアについては、Grid_Numberを1〜159の間で指定してください',
+    list(range(1,159))
 )
 'Grid_Name:::', info_t[info_t.columns[option_t]][1], ':::'
 
